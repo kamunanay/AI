@@ -1,0 +1,14 @@
+{
+  "name": "ai-bot",
+  "version": "1.0.0",
+  "description": "AI Ensemble System (Gemini + DeepAI)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/chat.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

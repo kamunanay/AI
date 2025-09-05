@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Ensemble Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>🤖 AI Ensemble System</h1>
+    <p>Integrasi Gemini + DeepAI</p>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Chat Panel -->
+    <section class="chat-panel">
+      <div class="chat-box" id="chat-box">
+        <p class="hint">Mulai percakapan dengan AI...</p>
+      </div>
+      <div class="chat-input">
+        <input id="user-input" type="text" placeholder="Ketik pesan..."/>
+        <button id="send-btn">Kirim</button>
+      </div>
+    </section>
+
+    <!-- AI Responses -->
+    <aside class="ai-panel">
+      <div class="card gemini">
+        <h2>🔴 Gemini</h2>
+        <p id="gemini">Menunggu pertanyaan...</p>
+      </div>
+      <div class="card deepai">
+        <h2>🔵 DeepAI</h2>
+        <p id="deepai">Menunggu pertanyaan...</p>
+      </div>
+      <div class="card final">
+        <h2>🟢 Hasil Ensemble</h2>
+        <p id="final">Hasil akhir akan muncul di sini...</p>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    © 2025 AI Ensemble | Dibangun untuk integrasi Gemini & DeepAI
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
